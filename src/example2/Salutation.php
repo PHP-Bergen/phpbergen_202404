@@ -6,14 +6,13 @@ namespace Phpbergen\Di\Example2;
 
 final readonly class Salutation
 {
-
     public function __construct(
-      private Writer $writer,
-    ) {}
+        private Writer $writer,
+    ) {
+    }
 
     public function exclaim(): void
     {
         $this->writer->write('Hello PHP Bergen!');
     }
-
 }

@@ -7,8 +7,9 @@ namespace Phpbergen\Di\Example2;
 final readonly class Writer implements WriterInterface
 {
     public function __construct(
-      private FormatterInterface $formatter = new StandardFormatter(),
-    ) {}
+        private FormatterInterface $formatter = new StandardFormatter(),
+    ) {
+    }
 
     public function write(string $message): void
     {

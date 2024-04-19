@@ -6,10 +6,8 @@ namespace Phpbergen\Di\Example2;
 
 class HtmlFormatter implements FormatterInterface
 {
-
     public function format(string $message): string
     {
         return "<p>$message</p>";
     }
-
 }
