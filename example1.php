@@ -12,6 +12,11 @@ $writer = new Writer();
 $salutation = new Salutation($writer);
 $salutation->exclaim();
 
-// Example 1.1
+// Example 1.1 With separate Salutation.
 $salutation2 = new Salutation($writer);
 $salutation2->exclaim();
+
+// Example shared Writer.
+$salutation2 = new Salutation($writer);
+$salutation2->exclaim();
+$salutation->exclaim();
