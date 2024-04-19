@@ -1,0 +1,4 @@
+/vendor
+
+# Ignore files created by tools.
+.idea
