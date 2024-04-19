@@ -10,7 +10,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 // Example 1.
 $writer = new Writer();
 $salutation = new Salutation($writer);
-$salutation->exclaim();
+echo $salutation->exclaim();
 
 // Example 1.1 With separate Salutation.
 $salutation2 = new Salutation($writer);

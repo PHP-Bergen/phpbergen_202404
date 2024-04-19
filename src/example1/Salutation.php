@@ -11,8 +11,8 @@ final readonly class Salutation
     ) {
     }
 
-    public function exclaim(): void
+    public function exclaim(): string
     {
-        $this->writer->write('Hello PHP Bergen!');
+        return $this->writer->write('Hello PHP Bergen!');
     }
 }
