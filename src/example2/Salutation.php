@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Phpbergen\Di\Example1;
+namespace Phpbergen\Di\Example2;
 
 final readonly class Salutation
 {
