@@ -7,7 +7,7 @@ namespace Phpbergen\Di\Example2;
 final readonly class Salutation
 {
     public function __construct(
-        private Writer $writer,
+        private WriterInterface $writer,
     ) {
     }
 
