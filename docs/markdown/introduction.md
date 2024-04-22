@@ -28,4 +28,7 @@
   * Decorator design pattern - Intercepting implementation
   * Single Responsibility
   * Ability to incrementally add new functionality
-  * 
+* Composite design pattern
+* Open/Closed principle. Extend application without changing exiting code.
+  * Open for extensibility, closed for modification.
+* Adapter pattern
