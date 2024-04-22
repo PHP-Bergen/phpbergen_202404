@@ -10,12 +10,14 @@ final class Writer implements WriterInterface
     public function __construct() {
     }
 
-    public function write(string $message): void
-    {
-        echo $this->formatter->format($message) . PHP_EOL;
+    public function setFormatter(FormatterInterface $formatter): void {
+        $this->formatter = $formatter;
     }
 
-    public function setFormatter(FormatterInterface $formatter): void {
-      $this->formatter = $formatter;
+    public function write(string $message): void
+    {
+        if (isset($this->formatter)) {
+            echo $this->formatter->format($message) . PHP_EOL;
+        }
     }
 }
