@@ -8,12 +8,6 @@
 * [Hairdryers and loosely coupled code](at_the_hotel.md)
 
 ## Three
-* No constrains to only hairdryer anymore
-* Liskov Substitution Principle (LSP)
-    * Replace with other type of devices.
-    * Replace with unknown type of devices to come.
-* Unplug the device. Even with nothing plugged in the room does not explode.
-    * Null Object
 * UPS between socket and device.
     * Decorator design pattern - Intercepting implementation
     * Single Responsibility
