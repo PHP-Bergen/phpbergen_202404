@@ -10,4 +10,4 @@
 * Power room back on again
 * Go back, check that hairdryer actually work
 
-Time to [Introduce an interface](hotel_interface.md)
+Next:[Introduce an interface](hotel_interface.md)
