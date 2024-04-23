@@ -47,3 +47,6 @@ jobs:
 
       - name: Setup problem matchers for PHPUnit
         run: echo "::add-matcher::${{ runner.tool_cache }}/phpunit.json"
+
+      - name: Run PHPUnit
+        run: phpunit
