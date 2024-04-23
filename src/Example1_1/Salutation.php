@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Phpbergen\Di\Example1;
+namespace Phpbergen\Di\Example1_1;
 
 /**
  * Constructor injection example.
@@ -10,7 +10,7 @@ namespace Phpbergen\Di\Example1;
 final readonly class Salutation
 {
     public function __construct(
-        private Writer $writer,
+        private WriterInterface $writer,
     ) {
     }
 

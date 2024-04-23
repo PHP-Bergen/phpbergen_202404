@@ -10,13 +10,16 @@ require_once __DIR__ . '/vendor/autoload.php';
 // Example 1.
 $writer = new Writer();
 $salutation = new Salutation($writer);
-echo $salutation->exclaim();
+echo $salutation->exclaim() . PHP_EOL;
 
-// Example 1.1 With separate Salutation.
-$salutation2 = new Salutation($writer);
-$salutation2->exclaim();
+// Example 1.1 With separate Salutations and writers.
+$salutation2 = new Salutation(new Writer());
+echo $salutation2->exclaim() . PHP_EOL;
+//var_dump($salutation === $salutation2);
 
 // Example shared Writer.
-$salutation2 = new Salutation($writer);
-$salutation2->exclaim();
-$salutation->exclaim();
+$salutations3 = new Salutation($writer);
+$salutations4 = new Salutation($writer);
+echo $salutations3->exclaim() . PHP_EOL;
+echo $salutations4->exclaim() . PHP_EOL;
+//var_dump($salutations3 === $salutations4);

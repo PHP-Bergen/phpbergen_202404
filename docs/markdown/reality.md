@@ -3,7 +3,6 @@
 > https://designpatternsphp.readthedocs.io/en/latest/Structural/DependencyInjection/README.html#purpose:
 >>To implement a loosely coupled architecture in order to get better testable, maintainable and extendable code.
 
-
 ## Roles
 The dependency injection technique consist of four main components:
 

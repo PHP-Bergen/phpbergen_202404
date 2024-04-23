@@ -4,7 +4,6 @@
 * Maintainable code
 * Easier to test
 
-## Example
+## Examples
 * [Hairdryers and loosely coupled code](at_the_hotel.md)
-
-## div
+* [Som more technical description](reality.md)

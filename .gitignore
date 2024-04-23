@@ -3,3 +3,7 @@
 
 # Ignore files created by tools.
 .idea
+
+# Ignore log files generated.
+
+*.log
