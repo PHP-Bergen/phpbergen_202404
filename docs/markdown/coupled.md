@@ -2,6 +2,8 @@
 
 ![coupled example](img/coupled.jpg)
 
+## If it needs to be repaired
+
 * Order electrician
 * Disconnect power to room
 * Replace broken hairdryer

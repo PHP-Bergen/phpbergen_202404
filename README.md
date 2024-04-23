@@ -2,5 +2,5 @@
 
 PHP Bergen dependency injection (DI) presentation.
 
-* [Presentation slide](docs/markdown/introduction.md).
-* Codes examples in `/src`.
+* [DI presentation slides](docs/markdown/introduction.md).
+* Example code: `/src`
