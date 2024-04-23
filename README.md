@@ -1,2 +1,6 @@
 # phpbergen_202404
-PHP Bergen presentation about dependency injection (DI) 
+
+PHP Bergen dependency injection (DI) presentation.
+
+* [Presentation slide](docs/markdown/introduction.md).
+* Codes examples in `/src`.

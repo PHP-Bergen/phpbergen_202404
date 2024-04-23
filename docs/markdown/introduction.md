@@ -4,12 +4,13 @@
 * Maintainable code
 * Easier to test
 
-
-## Hairdryers and loosely coupled code
-
+## Two
+* [Hairdryers and loosely coupled code](at_the_hotel.md)
 * Socket === interface
 * Plug === interface implementation
 * Enable to plug something else into the socket, no constrains as long as interface is followed. 
+
+## Three 
 * interface define power and hertz, obeys the interface contract.
 * No constrains to only hairdryer anymore 
 * Liskov Substitution Principle (LSP)
