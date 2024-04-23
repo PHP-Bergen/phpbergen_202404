@@ -10,7 +10,7 @@
          failOnRisky="true"
          colors="true"
          testdox="true"
-         failOnWarning="false">
+         failOnWarning="true">
     <testsuites>
         <testsuite name="default">
             <directory>tests</directory>
