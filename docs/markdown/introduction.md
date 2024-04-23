@@ -4,13 +4,6 @@
 * Maintainable code
 * Easier to test
 
-## Hairdryers and tightly coupled code
-
-* Order electrician
-* Disconnect power to room
-* Replace broken hairdryer
-* Power room back on again
-* Go back and double check that hairdryer actually work.
 
 ## Hairdryers and loosely coupled code
 
