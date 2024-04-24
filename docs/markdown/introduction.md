@@ -6,5 +6,5 @@
 
 ## Content
 * [Hairdryers and loosely coupled code](at_the_hotel.md)
-* [Som more technical description](reality.md)
+* [Some more technical description](di-why.md)
 * [DI containers](di-container.md)
