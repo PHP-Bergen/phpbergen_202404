@@ -1,5 +1,9 @@
 # DI container
 
+[PSR-11: Container interface](https://www.php-fig.org/psr/psr-11/)
+
+>The goal set by ContainerInterface is to standardize how frameworks and libraries make use of a container to obtain objects and parameters
+
 ```php
 interface ContainerInterface
 {
@@ -9,6 +13,8 @@ interface ContainerInterface
 ```
 
 ## Example from Drupal 10.x
+
+Read from config files.
 
 ```yaml
 services:
@@ -29,3 +35,4 @@ services:
     ]
 ```
 
+Next: [Autowiring](autowire.md)
