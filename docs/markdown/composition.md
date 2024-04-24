@@ -3,7 +3,10 @@
 With the composition design pattern, "simple" objects are composed into larger more complex structures.
 It is based on building complex objects by combining simpler ones instead of relying on inheritance.
 
+![](img/legos.jpg)
+
 In compostion, objects often form a hierarchical structure where a composite object contains one or more component objects (components).
+![](img/lego-house.jpg)
 
 The composite object delegate tasks to it's component(s).
 A composite object may also be a component object itself.
@@ -15,3 +18,4 @@ Simple objects can be combined and configured in different ways to build new fun
 Components may be used in different contexts without the need for modification.
 
 The component(s) of a composite object may be added, removed or replaced dynamically, promoting flexibility and extendability. 
+![](img/mil-falcon.jpg)
