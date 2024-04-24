@@ -28,3 +28,5 @@ DI requires extra configuration and logic to wire dependencies and also need to 
 ### Troubleshooting runtime errors
 Errors in dependency configuration may cause unexpected errors that are challenging to troubleshoot.
 Especially in large and complex projects.
+
+Back: [Index](introduction.md)
