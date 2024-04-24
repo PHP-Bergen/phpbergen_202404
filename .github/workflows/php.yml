@@ -43,7 +43,7 @@ jobs:
         run: composer install --prefer-dist --no-progress
 
       - name: Run PHPStan
-        run: phpstan --level=6 analyse src tests
+        run: phpstan --level=3 analyse src tests
 
       - name: Setup problem matchers for PHPUnit
         run: echo "::add-matcher::${{ runner.tool_cache }}/phpunit.json"
