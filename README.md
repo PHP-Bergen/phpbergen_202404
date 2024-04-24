@@ -6,3 +6,6 @@ PHP Bergen dependency injection (DI) presentation.
 
 * [DI presentation slides](docs/markdown/introduction.md)
 * Example code: `/src`
+
+Presented by: Jørn and @steinmb
+Date: 24.04.2024-18:00 (indian calendar: budhavara: 4. Vaisakha 1946)
