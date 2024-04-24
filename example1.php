@@ -12,7 +12,10 @@ $writer = new Writer();
 $salutation = new Salutation($writer);
 echo $salutation->exclaim() . PHP_EOL;
 
-// Example 1.1 With separate Salutations and writers.
+// Example 1.1 With separate Salutations and with
+// dependency on Writer. Object lifetime.
+$writer = new Writer();
+$salutation = new Salutation($writer);
 $salutation2 = new Salutation(new Writer());
 echo $salutation2->exclaim() . PHP_EOL;
 //var_dump($salutation === $salutation2);
