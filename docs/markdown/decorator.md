@@ -6,4 +6,4 @@
 * Single Responsibility
 * Ability to incrementally add new functionality
 
-Next: []()
+Next: [Composite design pattern](hotel_composition.md)
