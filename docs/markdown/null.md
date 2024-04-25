@@ -8,4 +8,4 @@
 
 ![Child safety](img/idiot_safe.jpeg)
 
-Next: 
+Next: [Decorator pattern](decorator.md)
