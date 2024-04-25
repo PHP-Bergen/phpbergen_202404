@@ -11,4 +11,4 @@
 
 ![small interfaces](img/small_interfaces.png)
 
-Next: [Summary](summary.md)
+Back: [Summary](summary.md)
