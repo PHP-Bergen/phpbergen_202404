@@ -17,4 +17,9 @@ Clients should not be concerned with how their dependencies are implemented, but
 By ignoring implementation details of their dependencies, clients don't have to change when a dependency do.
 You can even swap out an entire dependency with another one implementing the same interface.
 
+### Injectors (aka container, factory, provider etc)
+An injector introduce or provide services to a client.
+The injector instantiate and connect objects where objects may be both clients and services.
+To avoid circular dependencies, the injector can NOT be a client.
+
 * [Depoendency injection types](di-types.md)
